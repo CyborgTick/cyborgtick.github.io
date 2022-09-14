@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>
+            Food Blog
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheets" href="css/home.css">
+        <link rel="stylesheets" href="https://fonts.googleapis.com/css?family=Karma">
+        <link rel="stylesheet"  href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+
+    <body>
+        <!-- Header or Nav bar -->
+        <nav>
+            <div class="w3-top">
+                <div class="w3-bar w3-whitesmoke w3-padding w3-card" style="letter-spacing: 4px;">
+                    <a href="#home" class="w3-bar-item w3-button" style="font-size: 20px;">Joel's Pastries</a>
+                    <!--- other links and external pages on right hand side -->
+                    <div class="w3-right w3-hide-small" style="font-weight: 700px;">
+                        <a href="#categories" class="w3-bar-item w3-button w3-drop-down">Categories</a>
+                        <a href="#feeds" class="w3-bar-item w3-button">Feeds</a>
+                        <a href="#Saved items" class="w3-bar-item w3-button">Saved Items</a>
+                        <a href="#About" class="w3-bar-item w3-button">About</a>
+                        <a href="#Contact" class="w3-bar-item w3-button">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- header for page -->
+        <header class="w3-display-container w3-content w3-wide-header w3-wide" style="max-width:1500px; min-width:500px" id="home">
+            <img src="img/Pastries.jpg" alt="Joel's Cafeteria" class="w3-image w3-hover" width="1500px" height="10px">
+            <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+                <h1 class="w3-xxlarge" style="font-weight: 700;">Welcome to Joel's Pastries</h1>
+            </div>
+        </header>
+        
+        <!--- Content  -->
+        <div class="w3-content" style="max-width: 1000px;">
+
+            <!-- about section of the content page -->
+            <div class="w3-row w3-padding-64" id="About">
+                <div class="w3-col m6 w3-padding-large w3-hide-small" style="display: inline-block"><img src="img/Frenchtoast.jpg" class="w3-image w3-round w3-opacity-min" alt="Table Settings" width="400" height="700"/></div>
+                <div class="w3-col m6 w3-padding-large">
+                    <h1 class="w3-center">About Joel's Pasteries</h1>
+                    <h5 class="w3-center">In Business Since The Queen Died</h5>
+                    <p class="w3-large">Founded by Joel and his family, Joel's pasteries is known for being the best confectionary store around LA and Nigeria. 
+                        Joel himself was responsible for designing the initial formula for the well known award-winning x-pastery. The famous Queen Elizabeth II enjoyed
+                        the amazing pastery and granted it her seal of approval before she passed on recently. 
+                    </p>
+                </div>
+                </div>
+
+
+        <hr>
+
+            <!-- Menu Section -->
+            <div class="w3-row w3-padding-64" id="categories">
+                <div class="w3-col w3-padding-large l6">
+                    <h1 class="w3-center">Menu Categories</h1>
+                    <h4>Meat Pie and tartar sauce</h4>
+                    <p class="w3-text-brown">Assorted meat-filled confectioneries with dippings 9.20</p>
+                    <br>
+
+                    <h4>Belgian Waffle</h4>
+                    <p class="w3-text-brown">Vanilla Flavored batter with malted flour 7.50</p>
+                    <br>
+
+                    <h4>Blueberry Pancakes</h4>
+                    <p class="w3-text-brown">With syrup, butter and lots of berries 8.50</p>
+                    <br>
+
+                    <h4>Scrambled eggs</h4>
+                    <p class="w3-text-brown">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                </div>
+
+                <div class="w3-col w3-padding-large l6">
+                    <img src="img/diner.png" class="w3-round w3-image w3-opacity-min" alt="Categories" style="width:100%; max-width: 400px;"/>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- contact form  -->
+            <div class="w3-container w3-padding-64" id="contact">
+                <h1>Contact</h1><br>
+                <p>we offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggest criteria 
+                    of them all, both look and taste. Do not hesitate to contact us. </p>
+                <p class="w3-text-blue-grey w3-large"><b>
+                    Catering Service, 42nd Livign st, 43045  New York, NY.
+                </b></p>
+                <p>You can also contact us by phone +1-902384-00283 or email us at chibuikewonder@gmail.com.</p>
+                <form method="post" action="mailto:chibuikewonder@gmail.com" enctype="text/plain" target="_blank" id="Contact">
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="name"></p>
+                    <p><input class="w3-input w3-padding-16" type="number" placeholder="Phone number" required name="Phone number"></p>
+                    <p><input class="w3-input w3-padding-16" type="number" placeholder="Amount of People" name="amount of people"></p>
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Send A message to us" name="Message" required="Message"></p>
+                    <p><button class="w3-button w3-round w3-whiteshadow w3-section" type="submit">Holla At Us! >></button></p>
+                </form>
+            </div>
+
+        <!-- End Page -->
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-center w3-light-red w3-padding-32">
+            <p> Powered by <a href="http://chibuikewonder@gmail.com" title="Random Works" target="_blank" class="w3-hover-text-brown w3-button">Random Works</a></p>
+        </footer>
+    </body>
+</html>
